@@ -2,8 +2,8 @@ from PIL import Image
 import os
 import re
 
-pasta_imagens = "29-31"
-pasta_saida = "29-31Concatenadas"
+pasta_imagens = "29a31"
+pasta_saida = "29a31Concatenadas"
 os.makedirs(pasta_saida, exist_ok=True)
 
 # Função para extrair o número da página e ordenar corretamente
